@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&display=swap');
-
 :root {
     --primary-color: #092E42;
     --secondary-color: #00A6B7;
     --accent1-color: rgba(240, 120, 50, 0.7);
     --accent2-color: #E8F5F4;
 
-    --heading-font: "Anton", sans-serif;
-    --body-font: "Montserrat", sans-serif;
+    --heading-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 * {
