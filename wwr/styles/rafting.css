@@ -1,7 +1,7 @@
 :root {
     --primary-color: #092E42;
     --secondary-color: #00A6B7;
-    --accent1-color: rgba(240, 120, 50, 0.7);
+    --accent1-color: rgba(0, 166, 183, 0.83);
     --accent2-color: #E8F5F4;
 
     --heading-font: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -42,7 +42,7 @@ header nav ul {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 header,
@@ -56,6 +56,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    font-weight: normal;
 }
 
 nav,
@@ -88,6 +89,7 @@ h1 {
     text-align: center;
     background-color: var(--accent1-color);
     color: rgb(10, 10, 10);
+    letter-spacing: 2px;
 
 }
 
@@ -146,6 +148,7 @@ p {
 .hero article p {
     margin: 0;
     padding: 0;
+    color: rgb(10, 10, 10);
 }
 
 .adventure-gallery {
